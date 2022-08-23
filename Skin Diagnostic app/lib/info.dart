@@ -139,6 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: getImage,
         tooltip: 'Pick Image',
+        backgroundColor: Colors.orange,
         child: Icon(Icons.photo_album),
       ),
     );
